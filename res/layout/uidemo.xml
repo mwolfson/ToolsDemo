@@ -20,15 +20,15 @@
         android:gravity="center_vertical"
         android:orientation="vertical" >
 
-        <TextView
-            android:id="@+id/good_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
-            android:layout_marginRight="12dp"
-            android:layout_marginTop="8dp"
-            android:text="This text does not have any extra containers"
-            android:textSize="14dp" />
+        <Button
+            android:id="@+id/on_ui_btn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="On UI Thread"
+            android:textSize="18sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -49,15 +49,29 @@
                 android:gravity="center_vertical"
                 android:orientation="vertical" >
 
-                <TextView
-                    android:id="@+id/bad_text"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="12dp"
-                    android:layout_marginRight="12dp"
-                    android:layout_marginTop="8dp"
-                    android:text="This text does have extra containers - NOT GOOD!"
-                    android:textSize="14dp" />
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/off_ui_btn"
+                            android:layout_width="250dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:text="Off UI Thread"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

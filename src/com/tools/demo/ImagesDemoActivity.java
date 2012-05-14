@@ -2,12 +2,13 @@ package com.tools.demo;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class ImagesDemoActivity extends Activity {
 
-	private TextView goodText;
-	private TextView badText;
+	private TextView imgText;
+	private ImageView imgView;
 
 	/** Called when the activity is first created. */
 	@Override
@@ -17,8 +18,8 @@ public class ImagesDemoActivity extends Activity {
 	}
 
 	private void initializeViews() {
-		setContentView(R.layout.uidemo);
-		goodText = (TextView) this.findViewById(R.id.good_text);
-		badText = (TextView) this.findViewById(R.id.bad_text);
+		setContentView(R.layout.imagesdemo);
+		imgText = (TextView) this.findViewById(R.id.img_demo_text);
+		imgView = (ImageView) this.findViewById(R.id.image_demo_imgview);
 	}
 }
