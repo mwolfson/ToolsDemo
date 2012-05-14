@@ -28,7 +28,7 @@ public class LogcatDemoActivity extends Activity {
 		Log.v("ToolsDemo3", "Log statement   3");
 		Log.v("ToolsDemoX", "Log statement   X");
 		Log.v("ToolsDemoY", "Log statement   Y");
-		Log.v("ToolsDemoZ", "Log statement   Z");
+		Log.v("ToolsDemo$", "Log statement   $");
 		
 		
 	}
