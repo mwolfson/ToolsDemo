@@ -3,5 +3,13 @@
 
     <string name="hello">Hello World, ToolsDemoProjectActivity!</string>
     <string name="app_name">ToolsDemoProject</string>
+    <string name="setting">setting</string>
+    <string name="logcat_demo">Logcat Demo</string>
+    <string name="fragmenthostactivity">FragmentHostActivity</string>
+    <string name="this_is_center_aligned">This is center aligned</string>
+    <string name="this_is_right_aligned">This is right aligned</string>
+    <string name="this_is_the_first_long_text_designed_to_show_how_wrapping_will_work">This is the first long text designed to show how wrapping will work</string>
+    <string name="this_is_another_long_text_that_will_continue_to_show_how_weird_different_languages_might_appear_in_a_ui">This is another long text that will continue to show how weird different languages might appear in a UI</string>
+    <string name="user_interface_demo">User Interface Demo</string>
 
 </resources>

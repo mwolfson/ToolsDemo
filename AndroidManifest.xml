@@ -18,10 +18,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="UIDemoActivity" />
-        <activity android:name="MemDemoActivity" />
-        <activity android:name="ImagesDemoActivity" />
-        <activity android:name="LogcatDemoActivity" />
+        <activity android:name=".UIDemoActivity" />
+        <activity android:name=".GoodUIDemoActivity" />
+        <activity android:name=".MemDemoActivity" />
+        <activity android:name=".ImagesDemoActivity" />
+        <activity android:name=".LogcatDemoActivity" />
+        <activity android:name=".FragmentHostActivity" />
+        <activity android:name=".LocalizationDemoActivity" />
     </application>
 
 </manifest>

@@ -30,6 +30,16 @@
                     android:textStyle="bold" />
             
             <Button
+                    android:id="@+id/goodui_demo_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Good UI Demo"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            
+            <Button
                     android:id="@+id/memory_demo_btn"
                     android:layout_width="250dp"
                     android:layout_height="50dp"
@@ -57,7 +67,27 @@
                     android:layout_gravity="center_horizontal"
                     android:text="Image Demo"
                     android:textSize="18sp"
-                    android:textStyle="bold" />        
+                    android:textStyle="bold" /> 
+                    
+            <Button
+                    android:id="@+id/fragment_demo_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Fragment Demo"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            
+            <Button
+                    android:id="@+id/localization_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Localization Demo"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
     </LinearLayout>
 
 </ScrollView>

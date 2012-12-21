@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">adsfasdf</string>
+    <string name="fragmenthostactivity">adsgfasdf</string>
+    <string name="hello">dsfadsf</string>
+    <string name="logcat_demo">dSsfasdfasdfsdf</string>
+    <string name="setting">SDFsdafasd</string>
+    <string name="this_is_another_long_text_that_will_continue_to_show_how_weird_different_languages_might_appear_in_a_ui">dsafgadsgdfsa dg afdg adfdsf dgdgadsf Dsdf</string>
+    <string name="this_is_center_aligned">dSFDSFDS SDfDSFSD f DS dsf ds dgfdfg</string>
+    <string name="this_is_right_aligned">dsGDSg   DSfdsf  dsFGds</string>
+    <string name="this_is_the_first_long_text_designed_to_show_how_wrapping_will_work">dsZG DS</string>
+    <string name="user_interface_demo">dSF </string>
+
+</resources>

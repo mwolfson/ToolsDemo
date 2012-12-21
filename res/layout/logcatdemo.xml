@@ -11,7 +11,7 @@
         android:layout_marginLeft="12dp"
         android:layout_marginRight="12dp"
         android:layout_marginTop="8dp"
-        android:text="Logcat Demo"
+        android:text="@string/logcat_demo"
         android:textSize="14dp" />
 
     <TextView

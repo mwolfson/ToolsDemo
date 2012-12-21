@@ -1,6 +1,7 @@
 package com.tools.demo;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -11,7 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class UIDemoActivity extends Activity {
+public class GoodUIDemoActivity extends Activity {
 	private boolean DEVELOPER_MODE = true;
 	
 	/** Called when the activity is first created. */
@@ -24,7 +25,7 @@ public class UIDemoActivity extends Activity {
 	}
 
 	private void initializeViews() {
-		setContentView(R.layout.uidemo);
+		setContentView(R.layout.gooduidemo);
 		
 		Button onUiButton = (Button) findViewById(R.id.on_ui_btn);
 		Button offUiButton = (Button) findViewById(R.id.off_ui_btn);
