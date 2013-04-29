@@ -49,7 +49,8 @@ public class DemoFragment extends Fragment {
      * @param titleIn
      */
     public void setButtonText(String textIn) {
-        button.setText(textIn);        
+        button.setText(textIn);
+        button.setText("khasdkjf hdsfh ");
     }
 
     /**
