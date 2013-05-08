@@ -24,7 +24,7 @@ public class UIDemoActivity extends Activity {
 	}
 
 	private void initializeViews() {
-		setContentView(R.layout.uidemo);
+		setContentView(R.layout.baduidemo);
 		
 		Button onUiButton = (Button) findViewById(R.id.on_ui_btn);
 		Button offUiButton = (Button) findViewById(R.id.off_ui_btn);
