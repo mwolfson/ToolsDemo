@@ -13,11 +13,13 @@
                 android:id="@+id/tool_demo_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="12dp"
                 android:layout_marginRight="12dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
                 android:text="Select an option to start the demo"
-                android:textSize="14dp"/>
+                android:textSize="14dp" />
             
             <Button
                     android:id="@+id/ui_demo_btn"
@@ -25,7 +27,7 @@
                     android:layout_height="50dp"
                     android:layout_marginTop="20dp"
                     android:layout_gravity="center_horizontal"
-                    android:text="UI Demo"
+                    android:text="Bad UI Demo"
                     android:textSize="18sp"
                     android:textStyle="bold" />
             

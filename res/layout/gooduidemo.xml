@@ -11,7 +11,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp"
-        android:text="Form Example:"
+        android:text="Good UI Form Example:"
         android:textSize="14dp" />
 
     <Button
