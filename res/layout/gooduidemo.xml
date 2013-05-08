@@ -126,9 +126,10 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/textView4"
+        android:minLines="4"
+        android:maxLines="4"
         android:ems="10"
-        android:hint="Multi line text goes here"
-        android:inputType="textMultiLine" >
+        android:hint="Text will go here">
 
         <requestFocus />
     </EditText>
