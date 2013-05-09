@@ -12,7 +12,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp"
         android:text="Good UI Form Example:"
-        android:textSize="14dp" />
+        android:textSize="20dp" />
 
     <Button
         android:id="@+id/on_ui_btn"
@@ -59,18 +59,19 @@
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/checkBox1"
         android:layout_alignBaseline="@+id/checkBox1"
-        android:layout_alignBottom="@+id/checkBox1"
-        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="36dp"
         android:text="Item2" />
-
-    <CheckBox
+    
+        <CheckBox
         android:id="@+id/checkBox3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/checkBox1"
-        android:layout_alignBottom="@+id/checkBox1"
-        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/checkBox2"
+        android:layout_alignBottom="@+id/checkBox2"
+        android:layout_toRightOf="@+id/checkBox2"
+        android:layout_marginLeft="36dp"
         android:text="Item3" />
 
     <ImageView
@@ -78,7 +79,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="16dp"
         android:layout_marginRight="26dp"
         android:layout_below="@+id/checkBox1"
         android:src="@drawable/ic_launcher" />
@@ -88,7 +89,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="16dp"
         android:layout_marginLeft="26dp"
         android:layout_below="@+id/checkBox1"
         android:src="@drawable/ic_launcher" />
@@ -115,6 +116,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView2"
+        android:layout_marginTop="16dp"
         android:text="Enter text:"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -122,12 +124,11 @@
         android:id="@+id/editText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/button1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/textView4"
-        android:minLines="4"
-        android:maxLines="4"
+        android:minLines="3"
+        android:maxLines="3"
         android:ems="10"
         android:hint="Text will go here">
 
@@ -138,8 +139,9 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/editText1"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
         android:text="Button" />
 
 

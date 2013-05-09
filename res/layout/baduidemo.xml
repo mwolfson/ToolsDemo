@@ -18,7 +18,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8dp"
             android:text="Bad UI Form Example:"
-            android:textSize="14dp" />
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/on_ui_btn"
@@ -53,6 +53,7 @@
         android:id="@+id/options_layout"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginBottom="16dp"
         android:layout_marginTop="16dp" >
 
@@ -75,7 +76,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_gravity="right"
             android:text="Item3" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -164,8 +167,8 @@
                     android:ems="10"
                     android:hint="Text will go here"
                     android:inputType="textMultiLine"
-                    android:maxLines="4"
-                    android:minLines="4" />
+                    android:maxLines="3"
+                    android:minLines="3" />
             </LinearLayout>
 
             <Button
