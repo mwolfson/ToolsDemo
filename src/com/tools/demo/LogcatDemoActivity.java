@@ -3,9 +3,15 @@ package com.tools.demo;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class LogcatDemoActivity extends Activity {
+    private TextView tv;
+    private EditText et;
+    private Button btn;
 
 	/** Called when the activity is first created. */
 	@Override
@@ -16,6 +22,17 @@ public class LogcatDemoActivity extends Activity {
 
 	private void initializeViews() {
 		setContentView(R.layout.logcatdemo);
+		
+		tv = (TextView) findViewById(R.id.logcat_textview);
+        et = (EditText) findViewById(R.id.logcat_edittext);
+        btn = (Button) findViewById(R.id.logcat_button);
+        
+        btn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                String entered = et.getText().toString();
+                tv.setText(entered);
+            }
+        });
 		
 		//Generate a bunch of different logcat messages
 		Log.v("ToolsDemo", "Verbose");
@@ -29,8 +46,6 @@ public class LogcatDemoActivity extends Activity {
 		Log.v("ToolsDemoX", "Log statement   X");
 		Log.v("ToolsDemoY", "Log statement   Y");
 		Log.v("ToolsDemo$", "Log statement   $");
-		Log.v("mytag", "jhadfkjhasdf");
-		
-		
+		Log.v("mytag", "jhadfkjhasdf");		
 	}
 }

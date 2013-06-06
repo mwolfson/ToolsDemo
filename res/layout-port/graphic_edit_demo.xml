@@ -10,8 +10,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:ems="10"
-        android:text="thejhtll sajkljfasd"
-        android:inputType="textPassword" >
+        android:inputType="textPassword"
+        android:text="thejhtll sajkljfasd" >
 
         <requestFocus />
     </EditText>

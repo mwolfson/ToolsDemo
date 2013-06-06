@@ -14,6 +14,7 @@ public class ToolsDemoActivity extends Activity {
 	private Button imageDemo = null;
 	private Button fragmentDemo = null;	
 	private Button localDemo = null;
+	private Button debugDemo = null;
 	
     /** Called when the activity is first created. */
     @Override
@@ -28,10 +29,11 @@ public class ToolsDemoActivity extends Activity {
         imageDemo = (Button) findViewById(R.id.img_demo_btn);
         fragmentDemo = (Button) findViewById(R.id.fragment_demo_btn);
         localDemo = (Button) findViewById(R.id.localization_btn);
-        
+        debugDemo = (Button) findViewById(R.id.debug_btn);
+         
         uiDemo.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-            	Intent i = new Intent(getApplicationContext(), UIDemoActivity.class);
+            	Intent i = new Intent(getApplicationContext(), UIDemoActivity.class); 
                 startActivity(i);
             }
         });
@@ -74,6 +76,13 @@ public class ToolsDemoActivity extends Activity {
         localDemo.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
             	Intent i = new Intent(getApplicationContext(), LocalizationDemoActivity.class);
+                startActivity(i);
+            }
+        });
+        
+        debugDemo.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), DebugDemoActivity.class);
                 startActivity(i);
             }
         });

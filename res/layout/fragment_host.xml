@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
- 
+
     <fragment
         android:id="@+id/demo_fragment"
-        android:name="com.tools.demo.DemoFragment" 
+        android:name="com.tools.demo.DemoFragment"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="5dp" />
-    
- 
 
 </LinearLayout>

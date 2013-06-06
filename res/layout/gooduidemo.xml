@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
-    
+
     <TextView
         android:id="@+id/tool_demo_text"
         android:layout_width="wrap_content"
@@ -51,27 +51,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="16dp"
         android:layout_below="@+id/textView1"
+        android:layout_marginTop="16dp"
         android:text="Item1" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/checkBox1"
         android:layout_alignBaseline="@+id/checkBox1"
         android:layout_marginLeft="36dp"
+        android:layout_toRightOf="@+id/checkBox1"
         android:text="Item2" />
-    
-        <CheckBox
+
+    <CheckBox
         android:id="@+id/checkBox3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/checkBox2"
         android:layout_alignBottom="@+id/checkBox2"
-        android:layout_toRightOf="@+id/checkBox2"
         android:layout_marginLeft="36dp"
+        android:layout_toRightOf="@+id/checkBox2"
         android:text="Item3" />
 
     <ImageView
@@ -79,9 +79,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="16dp"
-        android:layout_marginRight="26dp"
         android:layout_below="@+id/checkBox1"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="16dp"
         android:src="@drawable/ic_launcher" />
 
     <ImageView
@@ -89,9 +89,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="16dp"
-        android:layout_marginLeft="26dp"
         android:layout_below="@+id/checkBox1"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="16dp"
         android:src="@drawable/ic_launcher" />
 
     <TextView
@@ -127,10 +127,10 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/textView4"
-        android:minLines="3"
-        android:maxLines="3"
         android:ems="10"
-        android:hint="Text will go here">
+        android:hint="Text will go here"
+        android:maxLines="3"
+        android:minLines="3" >
 
         <requestFocus />
     </EditText>
@@ -143,7 +143,5 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:text="Button" />
-
-
 
 </RelativeLayout>

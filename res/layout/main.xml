@@ -6,90 +6,100 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center_vertical" >
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
 
-            <TextView
-                android:id="@+id/tool_demo_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginLeft="12dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginTop="8dp"
-                android:gravity="center_horizontal"
-                android:text="Select an option to start the demo"
-                android:textSize="14dp" />
-            
-            <Button
-                    android:id="@+id/ui_demo_btn"
-                    android:layout_width="250dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Bad UI Demo"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            
-            <Button
-                    android:id="@+id/goodui_demo_btn"
-                    android:layout_width="250dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Good UI Demo"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            
-            <Button
-                    android:id="@+id/memory_demo_btn"
-                    android:layout_width="250dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Memory Demo"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            
-            <Button
-                    android:id="@+id/logcat_demo_btn"
-                    android:layout_width="250dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Logcat Demo"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            
-            <Button
-                    android:id="@+id/img_demo_btn"
-                    android:layout_width="250dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Image Demo"
-                    android:textSize="18sp"
-                    android:textStyle="bold" /> 
-                    
-            <Button
-                    android:id="@+id/fragment_demo_btn"
-                    android:layout_width="250dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Fragment Demo"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            
-            <Button
-                    android:id="@+id/localization_btn"
-                    android:layout_width="250dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Localization Demo"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tool_demo_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="Select an option to start the demo"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/ui_demo_btn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Bad UI Demo"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/goodui_demo_btn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Good UI Demo"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/memory_demo_btn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Memory Demo"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/logcat_demo_btn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Logcat Demo"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/img_demo_btn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Image Demo"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/fragment_demo_btn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Fragment Demo"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/localization_btn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Localization Demo"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        
+        <Button
+            android:id="@+id/debug_btn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Debug Demo"
+            android:textSize="18sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </ScrollView>

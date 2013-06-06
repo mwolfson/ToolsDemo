@@ -6,14 +6,13 @@
 
     <TextView
         android:id="@+id/tool_demo_text"
- android:layout_marginRight="12dp"       
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
         android:layout_marginTop="8dp"
         android:text="Memory Demo"
-        android:layout_width="wrap_content"
-        android:textSize="14sp"
-android:layout_marginLeft="12dp" />
+        android:textSize="14sp" />
 
     <Button
         android:id="@+id/eat_mem_btn"
@@ -24,6 +23,5 @@ android:layout_marginLeft="12dp" />
         android:text="Eat Memory"
         android:textSize="18sp"
         android:textStyle="bold" />
-
 
 </LinearLayout>
